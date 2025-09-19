@@ -61,6 +61,12 @@ using namespace std ;
 ```
 
 ```cpp
+
+*
+**
+***
+****
+*****
 #include <iostream>
 using namespace std ;
    
