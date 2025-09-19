@@ -1,7 +1,9 @@
 # Striver
 Striver DSA series 
 
-### corect way to practice question for placement 
+
+###patterns
+### corect way to practice question for placement
 ```cpp
 #include<bits/stdc++.h>
 using namespace std;
@@ -24,6 +26,13 @@ print1(n);
 }
 
 ```
+
+###patern 1
+*****
+*****
+*****
+*****
+*****
 
 ```cpp
 #include <iostream>
@@ -48,4 +57,28 @@ using namespace std ;
         }
     }
 
+```
+
+```cpp
+#include <iostream>
+using namespace std ;
+   
+    void print1(int n){
+        for (int i = 0;i <= n ;i++){
+            for(int j = 0;j < i;j++){
+                cout << "*";
+            }
+            cout << endl ;
+        }
+    }
+    
+    int main (){
+        int t;
+        cin >> t;
+        for ( int i=0; i<t ; i++ ){
+            int n;
+            cin >> n;
+            print1(n);
+        }
+    }
 ```
