@@ -28,15 +28,14 @@ print1(n);
 ```
 
 ###patern 1
-"
-*****
-*****
-*****
-*****
-*****
-"
-
 ```cpp
+*****
+*****
+*****
+*****
+*****
+
+
 #include <iostream>
 using namespace std ;
    
