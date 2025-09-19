@@ -36,8 +36,6 @@ print1(n);
 *****
 
 
-#include <iostream>
-using namespace std ;
    
     void print1(int n){
         for (int i = 0;i < n ;i++){
@@ -47,17 +45,6 @@ using namespace std ;
             cout << endl ;
         }
     }
-    
-    int main (){
-        int t;
-        cin >> t;
-        for ( int i=0; i<t ; i++ ){
-            int n;
-            cin >> n;
-            print1(n);
-        }
-    }
-
 ```
 
 ```cpp
@@ -67,8 +54,6 @@ using namespace std ;
 ***
 ****
 *****
-#include <iostream>
-using namespace std ;
    
     void print1(int n){
         for (int i = 0;i <= n ;i++){
@@ -79,13 +64,5 @@ using namespace std ;
         }
     }
     
-    int main (){
-        int t;
-        cin >> t;
-        for ( int i=0; i<t ; i++ ){
-            int n;
-            cin >> n;
-            print1(n);
-        }
-    }
+    
 ```
