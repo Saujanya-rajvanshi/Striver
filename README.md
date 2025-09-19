@@ -28,11 +28,13 @@ print1(n);
 ```
 
 ###patern 1
+"
 *****
 *****
 *****
 *****
 *****
+"
 
 ```cpp
 #include <iostream>
