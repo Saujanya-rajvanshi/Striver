@@ -169,7 +169,7 @@ for(int i = 0; i<n;i++) {
  ```
 
 *****
- ***
+_***
   *
 void print1(int n) {
 for(int i = 0; i<n;i++) {
