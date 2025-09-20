@@ -66,3 +66,42 @@ print1(n);
     
     
 ```
+
+```cpp
+
+0
+01
+012
+0123
+01234
+
+void print1(int n){
+        for (int i = 0;i <= n ;i++){
+            for(int j = 0;j < i;j++){
+                cout << j << " " ;
+            }
+            cout << endl ;
+        }
+    }
+
+```
+
+
+```cpp
+
+1
+22
+333
+4444
+55555
+
+void print1(int n){
+        for (int i = 0;i <= n ;i++){
+            for(int j = 0;j < i;j++){
+                cout << i << " " ;
+            }
+            cout << endl ;
+        }
+
+```
+    
