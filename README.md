@@ -24,7 +24,7 @@ int n;
 cin >> n;
 print1(n);
 }
-
+}
 ```
 
 ###patern 1
