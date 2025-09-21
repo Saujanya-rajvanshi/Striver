@@ -2,7 +2,7 @@
 Striver DSA series 
 
 
-###patterns
+### patterns
 ### corect way to practice question for placement
 ```cpp
 #include<bits/stdc++.h>
