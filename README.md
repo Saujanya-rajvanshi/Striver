@@ -399,3 +399,13 @@ for(int i = 0; i<n;i++) {
 }
 
 ```
+
+```cpp
+
+E
+DE
+CDE
+BCDE
+ABCDE
+
+```
