@@ -468,7 +468,14 @@ for(int i = 1; i<=n;i++) {
 
 ```
 
-```cpp 
+```cpp
+
+*    *
+**  **
+******
+**  **
+*    *
+
 int ins = 0;
 void print1(int n) {
     int space = 2*n-2;
