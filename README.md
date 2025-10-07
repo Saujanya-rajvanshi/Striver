@@ -572,6 +572,8 @@ int main() {
 
 # STL
 
+### vector 
+
 ##### popsize and capacity 
 ```cpp
 #include <iostream>
@@ -812,3 +814,10 @@ return 0;
 
 }
 ```
+
+### list
+
+##### push and pop 
+
+```cpp
+
