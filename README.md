@@ -1,4 +1,4 @@
- # Striver
+# Striver
 Striver DSA series 
 
 
