@@ -851,4 +851,21 @@ return 0;
 }
 ```
 
+##### pair
+```cpp
+#include <iostream>
+#include <list>
 
+
+using namespace std;
+
+int main() {
+    pair<int, pair<char, int>> p = {1, {'a', 3}};
+    
+    cout << p.first << endl;
+    cout << p.second.first << endl;
+
+return 0;
+
+}
+```
