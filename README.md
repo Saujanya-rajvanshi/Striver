@@ -2,8 +2,8 @@
 Striver DSA series 
 
 ## INDEX
- patterns <br>
- stl
+ 1. Patterns <br>
+ 2. Stl
 
 
 ### patterns
