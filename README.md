@@ -1,6 +1,10 @@
 # Striver
 Striver DSA series 
 
+## INDEX
+##### patterns 
+##### stl
+
 
 ### patterns
 ### corect way to practice question for placement
