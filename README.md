@@ -730,6 +730,27 @@ return 0;
 
 }
 ```
+##### same number in table
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    vector<int> vec(10,-2); //dynamic programming tabular data 
+    
+    vec.pop_back();
+    for(int val: vec) {
+        cout << val << " ";
+        
+    }
+    cout << endl;
+
+return 0;
+
+}
+```
 
 ##### +n on begin 
 
