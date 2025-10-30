@@ -6,7 +6,7 @@ Striver DSA series
  2. Stl
 
 
-
+```json
 {
     "version": "2.0.0",
     "tasks": [
@@ -29,7 +29,7 @@ Striver DSA series
         }
     ]
 }
-
+```
 
 ```cpp
 #include <iostream>
