@@ -5,6 +5,32 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
+
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\photos\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by ChatGPT for Saujanya"
+        }
+    ]
+}
+
+
 ```cpp
 #include <iostream>
 using namespace std;
