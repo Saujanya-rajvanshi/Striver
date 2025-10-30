@@ -5,9 +5,7 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
-
 ```json
-
 {
     "version": "2.0.0",
     "tasks": [
@@ -56,7 +54,18 @@ Striver DSA series
             "problemMatcher": ["$javac"]
         },
         {
-            "label": "run Python",
+            "label": "run Python (with I/O)",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "python ${file} < ${fileDirname}\\input.txt > ${fileDirname}\\output.txt"
+            ],
+            "group": { "kind": "build", "isDefault": false },
+            "problemMatcher": []
+        },
+        {
+            "label": "run Python (terminal output)",
             "type": "shell",
             "command": "python",
             "args": ["${file}"],
@@ -95,122 +104,9 @@ Striver DSA series
         }
     ]
 }
-```
-
-
-
-
-
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "run python",
-            "type": "shell",
-            "command": "python",
-            "args": [
-                "${file}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
-        }
-    ]
-}
-
-```
-```json
-{
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "compile and run",
-      "type": "shell",
-      "command": "cmd",
-      "args": [
-        "/c",
-        "g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\""
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": ["$gcc"]
-    }
-  ]
-}
-
 
 ```
 
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "compile",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-std=c++17",
-                "-o",
-                "${fileBasenameNoExtension}",
-                "${file}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": false
-            }
-        },
-        {
-            "label": "compile and run",
-            "type": "shell",
-            "command": "g++",
-            "args": [
-                "-std=c++17",
-                "${file}",
-                "-o",
-                "${fileBasenameNoExtension}",
-                "&&",
-                "./${fileBasenameNoExtension} < input.txt > output.txt"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"]
-        }
-    ]
-}
-```
-
-```json
-{
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "shell",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:\\photos\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "Generated task by ChatGPT for Saujanya"
-        }
-    ]
-}
-```
 
 ```cpp
 #include <iostream>
