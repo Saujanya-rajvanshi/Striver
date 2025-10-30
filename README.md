@@ -16,7 +16,7 @@ Striver DSA series
       "command": "cmd",
       "args": [
         "/c",
-        "g++ ${file} -o ${fileBasenameNoExtension}.exe && ${fileBasenameNoExtension}.exe < input.txt > output.txt"
+        "g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${fileDirname}\\input.txt\" > \"${fileDirname}\\output.txt\""
       ],
       "group": {
         "kind": "build",
@@ -26,6 +26,7 @@ Striver DSA series
     }
   ]
 }
+
 
 ```
 
