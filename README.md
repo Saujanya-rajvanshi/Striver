@@ -6,6 +6,49 @@ Striver DSA series
  2. Stl
 
 
+
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-o",
+                "${fileBasenameNoExtension}",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "compile and run",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}",
+                "&&",
+                "./${fileBasenameNoExtension} < input.txt > output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
+```
+
 ```json
 {
     "version": "2.0.0",
