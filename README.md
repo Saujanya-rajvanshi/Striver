@@ -5,7 +5,27 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run python",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
 
+```
 ```json
 {
   "version": "2.0.0",
