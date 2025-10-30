@@ -6,7 +6,28 @@ Striver DSA series
  2. Stl
 
 
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile and run",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "g++ ${file} -o ${fileBasenameNoExtension}.exe && ${fileBasenameNoExtension}.exe < input.txt > output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
 
+```
 
 ```json
 {
