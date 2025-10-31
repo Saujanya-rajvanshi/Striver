@@ -5,7 +5,7 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
-###### sorting
+#### sorting
 ```cpp
 #include <iostream>
 #include <vector>
@@ -23,6 +23,28 @@ for(int val : vec) {
 };
 
 cout << endl;
+return 0;
+};
+```
+
+###### sorting in pair
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    vector<pair<int, int>> vec = {{3, 1}, {2, 1}, {7, 1}, {5, 2}};
+
+    sort(vec.begin(), vec.end());
+
+    for(auto p : vec) {
+        cout << p.first << " " << p.second << endl;
+    };
+
+
 return 0;
 };
 ```
