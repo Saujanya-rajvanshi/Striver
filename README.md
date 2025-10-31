@@ -5,7 +5,7 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
-######sorting
+###### sorting
 ```cpp
 #include <iostream>
 #include <vector>
