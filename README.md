@@ -5,6 +5,32 @@ Striver DSA series
  1. Patterns <br>
  2. Stl
 
+######sorting
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+vector<int> vec = {3, 5, 1, 8, 2};
+
+sort(vec.begin(), vec.end(), greater<int>());
+
+for(int val : vec) {
+    cout << val << " ";
+};
+
+cout << endl;
+return 0;
+};
+```
+
+
+
+
+
 ```json
 {
     "version": "2.0.0",
