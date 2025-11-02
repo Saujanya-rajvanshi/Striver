@@ -152,6 +152,7 @@ int main() {
     
     cout << *(max_element(vec.begin(),vec.end()) )<< endl;
     cout << *(min_element(vec.begin(),vec.end()) )<< endl;
+    cout << binary_search(vec.begin(),vec.end(),4) << endl;
 return 0;
 };
 ```
