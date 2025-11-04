@@ -1,5 +1,5 @@
 # Striver
-Striver DSA series 
+Striver DSA series .....
 
 ## INDEX
  1. Patterns <br>
