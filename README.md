@@ -5,142 +5,6 @@ Striver DSA series .....
  1. Patterns <br>
  2. Stl
 
-#### sorting
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-int main() {
-vector<int> vec = {3, 5, 1, 8, 2};
-
-sort(vec.begin(), vec.end(), greater<int>());
-
-for(int val : vec) {
-    cout << val << " ";
-};
-
-cout << endl;
-return 0;
-};
-```
-
-###### sorting in pair
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-int main() {
-    vector<pair<int, int>> vec = {{3, 1}, {2, 1}, {7, 1}, {5, 2}};
-
-    sort(vec.begin(), vec.end());
-
-    for(auto p : vec) {
-        cout << p.first << " " << p.second << endl;
-    };
-
-
-return 0;
-};
-```
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-bool comparator(pair<int,int> p1,pair<int,int> p2){
-    if(p1.second < p2.second) return true;
-    if(p1.second > p2.second) return false;
-    
-    if(p1.first < p2.first) return true;
-    else return false ;
-}
-
-
-
-int main() {
-    vector<int> vec = {1, 2, 3, 4, 5};
-    
-    reverse (vec.begin(), vec.end());
-for(auto val : vec) {
-    cout << val<< endl;
-}
-
-return 0;
-};
-```
-
-##### next permutations 
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-bool comparator(pair<int,int> p1,pair<int,int> p2){
-    if(p1.second < p2.second) return true;
-    if(p1.second > p2.second) return false;
-    
-    if(p1.first < p2.first) return true;
-    else return false ;
-}
-
-
-
-int main() {
-    string s = "abc";
-    next_permutation (s.begin(), s.end());
-    
-    cout << s << endl;
-
-return 0;
-};
-```
-##### prev permutations 
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-bool comparator(pair<int,int> p1,pair<int,int> p2){
-    if(p1.second < p2.second) return true;
-    if(p1.second > p2.second) return false;
-    
-    if(p1.first < p2.first) return true;
-    else return false ;
-}
-
-
-
-int main() {
-    string s = "abc";
-    prev_permutation (s.begin(), s.end());
-    
-    cout << s << endl;
-
-return 0;
-};
-```
-
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-bool comparator(pair<int,int> p1,pair<int,int> p2){
-    if(p1.second < p2.second) return true;
-    if(p1.second > p2.second) return false;
-
 
 ```json
 {
@@ -180,7 +44,44 @@ bool comparator(pair<int,int> p1,pair<int,int> p2){
             "problemMatcher": ["$gcc"]
         },
         {
-            "label": "run Java",
+     
+
+
+    
+    if(p1.first < p2.first) return true;
+    else return false ;
+}
+
+
+
+int main() {
+    vector<int> vec = {1,2,3,4,5};
+    
+    cout << *(max_element(vec.begin(),vec.end()) )<< endl;
+    cout << *(min_element(vec.begin(),vec.end()) )<< endl;
+    cout << binary_search(vec.begin(),vec.end(),4) << endl;
+return 0;
+};
+```
+
+#### builtin count sets 
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int n = 15;
+    
+    cout << __builtin_popcount(n) << endl ;
+    
+return 0;
+};
+```
+
+       "label": "run Java",
             "type": "shell",
             "command": "cmd",
             "args": [
@@ -1481,27 +1382,7 @@ int main() {
 
 ```
 
-
-
-
-    
-    if(p1.first < p2.first) return true;
-    else return false ;
-}
-
-
-
-int main() {
-    vector<int> vec = {1,2,3,4,5};
-    
-    cout << *(max_element(vec.begin(),vec.end()) )<< endl;
-    cout << *(min_element(vec.begin(),vec.end()) )<< endl;
-    cout << binary_search(vec.begin(),vec.end(),4) << endl;
-return 0;
-};
-```
-
-#### builtin count sets 
+#### sorting
 ```cpp
 #include <iostream>
 #include <vector>
@@ -1510,10 +1391,131 @@ return 0;
 using namespace std;
 
 int main() {
-    int n = 15;
-    
-    cout << __builtin_popcount(n) << endl ;
-    
+vector<int> vec = {3, 5, 1, 8, 2};
+
+sort(vec.begin(), vec.end(), greater<int>());
+
+for(int val : vec) {
+    cout << val << " ";
+};
+
+cout << endl;
 return 0;
 };
 ```
+
+###### sorting in pair
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    vector<pair<int, int>> vec = {{3, 1}, {2, 1}, {7, 1}, {5, 2}};
+
+    sort(vec.begin(), vec.end());
+
+    for(auto p : vec) {
+        cout << p.first << " " << p.second << endl;
+    };
+
+
+return 0;
+};
+```
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+bool comparator(pair<int,int> p1,pair<int,int> p2){
+    if(p1.second < p2.second) return true;
+    if(p1.second > p2.second) return false;
+    
+    if(p1.first < p2.first) return true;
+    else return false ;
+}
+
+
+
+int main() {
+    vector<int> vec = {1, 2, 3, 4, 5};
+    
+    reverse (vec.begin(), vec.end());
+for(auto val : vec) {
+    cout << val<< endl;
+}
+
+return 0;
+};
+```
+
+##### next permutations 
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+bool comparator(pair<int,int> p1,pair<int,int> p2){
+    if(p1.second < p2.second) return true;
+    if(p1.second > p2.second) return false;
+    
+    if(p1.first < p2.first) return true;
+    else return false ;
+}
+
+
+
+int main() {
+    string s = "abc";
+    next_permutation (s.begin(), s.end());
+    
+    cout << s << endl;
+
+return 0;
+};
+```
+##### prev permutations 
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+bool comparator(pair<int,int> p1,pair<int,int> p2){
+    if(p1.second < p2.second) return true;
+    if(p1.second > p2.second) return false;
+    
+    if(p1.first < p2.first) return true;
+    else return false ;
+}
+
+
+
+int main() {
+    string s = "abc";
+    prev_permutation (s.begin(), s.end());
+    
+    cout << s << endl;
+
+return 0;
+};
+```
+
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+bool comparator(pair<int,int> p1,pair<int,int> p2){
+    if(p1.second < p2.second) return true;
+    if(p1.second > p2.second) return false;
+```
+
