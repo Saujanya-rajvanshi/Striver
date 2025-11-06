@@ -54,32 +54,7 @@ Striver DSA series .....
 
 
 
-int main() {
-    vector<int> vec = {1,2,3,4,5};
-    
-    cout << *(max_element(vec.begin(),vec.end()) )<< endl;
-    cout << *(min_element(vec.begin(),vec.end()) )<< endl;
-    cout << binary_search(vec.begin(),vec.end(),4) << endl;
-return 0;
-};
-```
 
-#### builtin count sets 
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-using namespace std;
-
-int main() {
-    int n = 15;
-    
-    cout << __builtin_popcount(n) << endl ;
-    
-return 0;
-};
-```
 
        "label": "run Java",
             "type": "shell",
@@ -1517,5 +1492,30 @@ using namespace std;
 bool comparator(pair<int,int> p1,pair<int,int> p2){
     if(p1.second < p2.second) return true;
     if(p1.second > p2.second) return false;
+int main() {
+    vector<int> vec = {1,2,3,4,5};
+    
+    cout << *(max_element(vec.begin(),vec.end()) )<< endl;
+    cout << *(min_element(vec.begin(),vec.end()) )<< endl;
+    cout << binary_search(vec.begin(),vec.end(),4) << endl;
+return 0;
+};
+```
+
+#### builtin count sets 
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int n = 15;
+    
+    cout << __builtin_popcount(n) << endl ;
+    
+return 0;
+};
 ```
 
