@@ -1,9 +1,4 @@
-# Striver
-Striver DSA series .....
-
-## INDEX
- 1. Patterns <br>
- 2. Stl
+# PATTERNS
 
 ---------
 ```json
