@@ -117,8 +117,8 @@ int main() {
     }
 ```
 
+### patern 2
 ```cpp
-
 *
 **
 ***
@@ -136,7 +136,7 @@ int main() {
     
     
 ```
-
+### patern 3
 ```cpp
 
 0
@@ -156,7 +156,7 @@ void print1(int n){
 
 ```
 
-
+### patern 4
 ```cpp
 
 1
@@ -175,6 +175,7 @@ void print1(int n){
 
 ```
 
+### patern 5
 ```cpp
 
 *****
@@ -195,6 +196,7 @@ void print1(int n){
 
 ```
 
+### patern 6
 ```cpp
 
 12345
@@ -215,6 +217,7 @@ for(int i = 0; i<n;i++) {
 
 ```
 
+### patern 7
 ```cpp
 
     *
@@ -237,6 +240,7 @@ for(int i = 0; i<n;i++) {
 }
 ```
 
+### patern 8
  ```cpp
 
 *****
@@ -259,7 +263,7 @@ for(int i = 0; i<n;i++) {
 
 ```
 
-
+### patern 9
 ```cpp
 *****
 _***
@@ -299,7 +303,7 @@ for(int i = 0; i<n;i++) {
 }
  ```
 
-
+### patern 10
 ```cpp
 
 *
@@ -326,6 +330,7 @@ for(int i = 1; i<=2*n-1;i++) {
 
 ```
 
+### patern 11
 ```cpp
 
 0
@@ -346,7 +351,7 @@ for(int i = 0; i<n;i++) {
 }
 
 ```
-
+### patern 12
 ```cpp
 
 1    1
@@ -374,6 +379,7 @@ space -= 2;
 
 ```
 
+### patern 13
 ```cpp
 
 1
@@ -392,6 +398,8 @@ for(int i = 1; i<=n;i++) {
 }
 
 ```
+
+### patern 14
 ```cpp
 
 A
@@ -408,7 +416,7 @@ for(int i = 0; i<=n;i++) {
 }
 }
 ```
-
+### patern 15
 ```cpp
 ABCD
 ABC
@@ -425,7 +433,7 @@ for(int i = n; i>=0;i--) {
 }
 
 ```
-
+### patern 16
 ```cpp
 A
 BB
@@ -442,6 +450,7 @@ for(int i = 0; i<=n;i++)  {
 }
  ```
 
+### patern 17
 ```cpp
 
    A
@@ -472,6 +481,7 @@ for(int i = 0; i<n;i++) {
 
 ```
 
+### patern 18
 ```cpp
 
 E
@@ -482,7 +492,7 @@ ABCDE
 
 ```
 
-
+### patern 1
 ```cpp
 
 **********
