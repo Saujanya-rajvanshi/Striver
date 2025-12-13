@@ -23,10 +23,10 @@
 
 --------------------------- ROW 3 (13–18) ---------------------------
 
-13. 1        14. A        15. ABCDE      16. A        17.    A     18. ABCDEFG
-    23           AB           ABC            BB             ABC         ABCDE
-    456          ABC          AB             CCC           ABCDE         ABC
-    78910        ABCD         A              DDDD         ABCDEFG         A
+13. 1        14. A        15. ABCDE      16. A        17.    A     18. D
+    23           AB           ABC            BB             ABA        CD
+    456          ABC          AB             CCC           ABCBA       BCD
+    78910        ABCD         A              DDDD         ABCDCBA      ABCD
 
 
 
@@ -59,18 +59,6 @@ int main() {
     return 0;
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### patterns
 ### corect way to practice question for placement
@@ -125,7 +113,7 @@ int main() {
 ****
 *****
    
-    void print1(int n){
+    void print2(int n){
         for (int i = 0;i <= n ;i++){
             for(int j = 0;j < i;j++){
                 cout << "*";
@@ -145,7 +133,7 @@ int main() {
 0123
 01234
 
-void print1(int n){
+void print3(int n){
         for (int i = 0;i <= n ;i++){
             for(int j = 0;j < i;j++){
                 cout << j << " " ;
@@ -165,7 +153,7 @@ void print1(int n){
 4444
 55555
 
-void print1(int n){
+void print4(int n){
         for (int i = 0;i <= n ;i++){
             for(int j = 0;j < i;j++){
                 cout << i << " " ;
@@ -185,7 +173,7 @@ void print1(int n){
 *
 
 
-    void print1(int n){
+    void print5(int n){
         for (int i = 0;i <= n ;i++){
             for(int j = 0;j < n-i ;j++){
                 cout << "*" << " " ;
@@ -205,7 +193,7 @@ void print1(int n){
 12
 1
 
-void print1(int n) {
+void print6(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<n-i;j++) {
         cout << j << " ";
@@ -224,7 +212,7 @@ for(int i = 0; i<n;i++) {
    ***
   *****
 
-void print1(int n) {
+void print7(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<n-i-1;j++) {
         cout << " ";
@@ -246,7 +234,7 @@ for(int i = 0; i<n;i++) {
 *****
 _***
 __*
-void print1(int n) {
+void print8(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<i;j++) {
         cout << " ";
@@ -272,7 +260,7 @@ __*
  ***
 *****
 
-void print1(int n) {
+void print9(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<i;j++) {
         cout << " ";
@@ -287,7 +275,7 @@ for(int i = 0; i<n;i++) {
     }
 }
 
-void print2(int n) {
+void print9(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<n-i-1;j++) {
         cout << " ";
@@ -314,7 +302,7 @@ for(int i = 0; i<n;i++) {
 
 
 
-void print1(int n) {
+void print10(int n) {
 for(int i = 1; i<=2*n-1;i++) {
     int stars = i;
     if(i>n) stars = 2*n-i;
@@ -337,7 +325,7 @@ for(int i = 1; i<=2*n-1;i++) {
 10
 010
 
-void print1(int n) {
+void print11(int n) {
     int start =1;
 for(int i = 0; i<n;i++) {
     if(i%2==0) start = 1;
@@ -386,7 +374,7 @@ space -= 2;
 23
 456
 
-void print1(int n) {
+void print13(int n) {
     int num=1;
 for(int i = 1; i<=n;i++) {
     for(int j=1;j<=i;j++) {
@@ -407,7 +395,7 @@ AB
 ABC
 ABCD
 
-void print1(int n) {
+void print14(int n) {
 for(int i = 0; i<=n;i++) {
     for(int j=0;j<=i;j++) {
         cout << char(65+j);
@@ -423,7 +411,7 @@ ABC
 AB
 A
 
-void print1(int n) {
+void print15(int n) {
 for(int i = n; i>=0;i--) {
     for(int j=0;j<=i;j++) {
         cout << char(65+j);
@@ -440,7 +428,7 @@ BB
 CCC
 DDDD
 
-void print1(int n) {
+void print16(int n) {
 for(int i = 0; i<=n;i++)  {
     for(int j=0;j<=i;j++) {
         cout << char(65+i);
@@ -457,7 +445,7 @@ for(int i = 0; i<=n;i++)  {
   ABA
  ABCBA
 
-void print1(int n) {
+void print17(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<n-i-1;j++) {
         cout << " ";
@@ -483,16 +471,25 @@ for(int i = 0; i<n;i++) {
 
 ### patern 18
 ```cpp
-
 E
 DE
 CDE
 BCDE
 ABCDE
 
+void print18(int n) {
+    for(int i = 0; i < n; i++) {
+        for(char ch = char('E' - i); ch <= 'E'; ch++) {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
+
 ```
 
-### patern 1
+### patern 19
 ```cpp
 
 **********
@@ -507,7 +504,7 @@ ABCDE
 **********
 
 int ins = 0;
-void print1(int n) {
+void print19(int n) {
 for(int i = 0; i<n;i++) {
     
     for(int j=1;j<=n-i;j++) {
@@ -549,6 +546,7 @@ for(int i = 1; i<=n;i++) {
 
 ```
 
+### patern 20
 ```cpp
 
 *    *
@@ -558,7 +556,7 @@ for(int i = 1; i<=n;i++) {
 *    *
 
 int ins = 0;
-void print1(int n) {
+void print20(int n) {
     int space = 2*n-2;
     for(int i = 1; i<2*n-1;i++) {
         int stars =i;
@@ -584,6 +582,7 @@ void print1(int n) {
 }
 ```
 
+### patern 21
 ```cpp
 
 *****
@@ -592,7 +591,7 @@ void print1(int n) {
 *****
 
 
-void print1(int n) {
+void print21(int n) {
 for(int i = 0; i<n;i++) {
     for(int j=0;j<n;j++) {
         if(i==0 || j==0 || i==n-1 || j==n-1){
@@ -606,6 +605,7 @@ for(int i = 0; i<n;i++) {
 
 ```
 
+### patern 22
 ```
 
 #include <iostream>
