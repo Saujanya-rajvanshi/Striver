@@ -1,6 +1,6 @@
 # PATTERNS
 1. - [overview](#overview)
-2. - [patern correct way](#corect-way-to-practice-question-for-placement)
+2. - [patern correct way for interview](#corect-way-to-practice-question-for-placement)
 2. - [patern no. 1](#patern-1)
 
 
