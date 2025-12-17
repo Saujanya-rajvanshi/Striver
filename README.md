@@ -2,8 +2,8 @@
 1. - [overview](#overview)
 2. - [patern correct way for interview](#corect-way-to-practice-question-for-placement)
 3. - [patern no. 1](#patern-1)
-4. - [patern no. 1](#patern-2)
-
+4. - [patern no. 2](#patern-2)
+5. - [patern no. 3](#patern-3)
 
  # overview    
 ```
