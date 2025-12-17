@@ -6,6 +6,10 @@
 5. - [patern no. 3](#patern-3)
 6. - [patern no. 4](#patern-4)
 7. - [patern no. 5](#patern-5)
+8. - [patern no. 6](#patern-6)
+9. - [patern no. 7](#patern-7)
+10. - [patern no. 8](#patern-8)
+11. - [patern no. 9](#patern-9)
 
  # overview    
 ```
