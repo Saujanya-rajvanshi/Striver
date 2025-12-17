@@ -2,12 +2,7 @@
 1. - [overview](#overview)
 2. - [patern correct way for interview](#corect-way-to-practice-question-for-placement)
 3. - [patern no. 1](#patern-1)  &nbsp;&nbsp;  4. - [patern no. 2](#patern-2)   &nbsp;&nbsp;  5. - [patern no. 3](#patern-3)  &nbsp;&nbsp;  6. - [patern no. 4](#patern-4) &nbsp;&nbsp; 7. - [patern no. 5](#patern-5) &nbsp;&nbsp; 8. - [patern no. 6](#patern-6)
-9. - [patern no. 7](#patern-7)
-10. - [patern no. 8](#patern-8)
-11. - [patern no. 9](#patern-9)
-12. - [patern no. 10](#patern-10)
-13. - [patern no. 11](#patern-11)
-14. - [patern no. 12](#patern-12)
+9. - [patern no. 7](#patern-7) &nbsp;&nbsp; 10. - [patern no. 8](#patern-8) &nbsp;&nbsp; 11. - [patern no. 9](#patern-9) &nbsp;&nbsp; 12. - [patern no. 10](#patern-10) &nbsp;&nbsp; 13. - [patern no. 11](#patern-11) &nbsp;&nbsp; 14. - [patern no. 12](#patern-12)
 15. - [patern no. 13](#patern-13)
  # overview    
 ```
