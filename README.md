@@ -1,7 +1,7 @@
 # PATTERNS
 1. - [overview](#overview)
 2. - [patern correct way for interview](#corect-way-to-practice-question-for-placement)
-3. - [patern no. 1](#patern-1)  &nbsp&nbsp  4. - [patern no. 2](#patern-2)
+3. - [patern no. 1](#patern-1)  &nbsp;&nbsp;  4. - [patern no. 2](#patern-2)
 5. - [patern no. 3](#patern-3)
 6. - [patern no. 4](#patern-4)
 7. - [patern no. 5](#patern-5)
