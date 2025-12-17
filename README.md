@@ -10,7 +10,10 @@
 9. - [patern no. 7](#patern-7)
 10. - [patern no. 8](#patern-8)
 11. - [patern no. 9](#patern-9)
-
+12. - [patern no. 10](#patern-10)
+13. - [patern no. 11](#patern-11)
+14. - [patern no. 12](#patern-12)
+15. - [patern no. 13](#patern-13)
  # overview    
 ```
 --------------------------- ROW 1 (1–6) ---------------------------
