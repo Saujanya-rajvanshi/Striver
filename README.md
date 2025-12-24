@@ -599,6 +599,8 @@ void print20(int n) {
 *     *
 * * * *
 
+// case for the bioundry
+// i = 0,i = n-1, j = 0, j=n-1
 
 void print21(int n) {
 for(int i = 0; i<n;i++) {
