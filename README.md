@@ -594,10 +594,10 @@ void print20(int n) {
 ### patern 21
 ```cpp
 
-*****
-*   *
-*   *
-*****
+* * * *
+*     *
+*     *
+* * * *
 
 
 void print21(int n) {
