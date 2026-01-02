@@ -734,3 +734,21 @@ void print1(int n){
         }
     }
 ```
+```cpp
+
+5
+45
+345
+2345
+12345
+
+void print1(int n) {
+for(int i = 0; i<n;i++) {
+    int ch = n-i;
+    for(int j=0;j<=i;j++) {
+        cout << ch;
+        ch = ch+1;
+    }
+    cout << endl;
+}
+}
