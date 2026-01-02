@@ -397,7 +397,7 @@ for(int i = 0; i<=n;i++) {
 
 
 void print12(int n) {
-int space 2* (n-1);
+int space = 2*(n-1);
 for(int i=1;i<=n;i++) {
 // numbers 
 for(int j=1;j<=1;j++) {
