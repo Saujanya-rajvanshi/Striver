@@ -646,3 +646,21 @@ void print22(int n) {
 ```
 
 
+### extras
+
+```cpp
+//55555
+//4444
+//333
+//22
+//1
+
+void print1(int n) {
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=n-i+1;j++){
+        cout<<n-i+1;
+    } 
+    cout<< endl;
+}
+}
+```
