@@ -780,3 +780,44 @@ void print1(int n) {
     }
 }
 ```
+
+```cpp
+
+0
+12
+234
+3456
+45678
+
+void print1(int n) {
+    for (int i = 0; i < n; i++) {
+        int ch = i;
+        for (int j = 0; j <= i; j++) {
+            cout << ch;
+            ch++;
+        }
+        cout << endl;
+    }
+}
+```
+
+
+```cpp
+
+A
+BC
+CDE
+DEFG
+EFGHI
+
+void print1(int n) {
+    for (int i = 0; i < n; i++) {
+        int ch = i;
+        for (int j = 0; j <= i; j++) {
+            cout << char(65+ch);
+            ch++;
+        }
+        cout << endl;
+    }
+}
+```
