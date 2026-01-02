@@ -588,7 +588,7 @@ for(int i = 0; i<n;i++) {
 }
 
 
-ins =8;
+ins =2*(n-1);
 for(int i = 1; i<=n;i++) {
     
     for(int j=1;j<=i;j++) {
