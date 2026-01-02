@@ -310,6 +310,35 @@ for(int i = 0; i<n;i++) {
 
 ```
 
+```cpp
+void print1(int n) {
+for(int i = 0; i<=2*n;i++) {
+    if(i == n) continue;
+    if(i == n+1) continue;
+    
+    int in =i;
+    if (i>n) in = i-n; 
+
+    int stars = 2*in;
+    if(i>n) stars = 2*n-(2*in);
+
+    int space = n-in-1;
+    if(i>n) space = in-1;
+
+    for(int j=0;j<space;j++) {
+        cout << " ";
+    }
+        
+    for(int j = 0; j<=stars ; j++){
+            cout << "*";
+        
+    }
+     cout << endl;   
+    }
+
+}
+```
+
 ### patern 10
 ```cpp
 
