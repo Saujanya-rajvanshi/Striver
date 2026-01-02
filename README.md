@@ -269,12 +269,12 @@ for(int i = 0; i<n;i++) {
 
 ### patern 9
 ```cpp
-*****
-_***
-__*
+
   *
  ***
 *****
+_***
+__*
 
 void print9(int n) {
 for(int i = 0; i<n;i++) {
