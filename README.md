@@ -753,3 +753,30 @@ for(int i = 0; i<n;i++) {
     cout << endl;
 }
 }
+```
+
+```
+8 8 8 8 8 8 8 8 8 
+8 7 7 7 7 7 7 7 8
+8 7 6 6 6 6 6 7 8
+8 7 6 5 5 5 6 7 8
+8 7 6 5 4 5 6 7 8 
+8 7 6 5 5 5 6 7 8
+8 7 6 6 6 6 6 7 8
+8 7 7 7 7 7 7 7 8
+8 8 8 8 8 8 8 8 8
+
+void print1(int n) {
+    for (int i = 0; i < 2*n - 1; i++) {
+        for (int j = 0; j < 2*n - 1; j++) {
+            int top = i;
+            int left = j;
+            int right = (2*n - 2) - j;
+            int down = (2*n - 2) - i;
+
+            cout << (max(max(top, down), max(left, right))) << " ";
+        }
+        cout << endl;
+    }
+}
+```
