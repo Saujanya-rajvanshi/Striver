@@ -238,6 +238,8 @@ for(int i = 0; i<n;i++) {
     cout << endl ;
     }
 }
+
+// last spacing loop is not really needed 
 ```
 
 ### patern 8
@@ -260,6 +262,8 @@ for(int i = 0; i<n;i++) {
     cout << endl ;
     }
 }
+
+// last spacing loop is not really needed 
 
 ```
 
